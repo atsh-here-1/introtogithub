@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="scene-container"></div>
+    <div class="login-container">
+        <div class="login-box">
+            <h2>Login</h2>
+            <form>
+                <div class="input-box">
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="social-login">
+                    <p>Or sign in with</p>
+                    <div class="social-icons">
+                        <a href="#" class="google-btn">
+                            <img src="https://developers.google.com/identity/images/g-logo.png" alt="Google">
+                            <span>Google</span>
+                        </a>
+                        <a href="#" class="passkey-btn">
+                            <img src="https://passkeys.dev/images/passkey-icon-96x96.png" alt="Passkey">
+                            <span>Passkey</span>
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
